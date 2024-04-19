@@ -1,3 +1,4 @@
+![Minecraft Schnauzer Pausing Time](https://github.com/squaredschnauzer/bta-server-pause-time/blob/main/src/main/resources/icon.png?raw=true)
 # BTA-Server-Pause-Time
 
 ## Overview
