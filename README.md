@@ -19,7 +19,7 @@ While this mod is developed for BTA-7.1, it has been structured to be potentiall
 Contributions are welcome! If you'd like to improve BTA-Pause-Time, feel free to fork the repository and submit a pull request. Please ensure your code adheres to the existing style of the project to maintain consistency.
 
 ## License
-BTA-Pause-Time is made available under the MIT License. For more details, see the LICENSE file in the repository.
+BTA-Pause-Time is made available under the CC0 1.0 Universal License. For more details, see the LICENSE file in the repository.
 
 ## Support
 If you encounter any problems or have any suggestions, please open an issue on the GitHub repository. We appreciate your feedback and contributions to improving this mod.
