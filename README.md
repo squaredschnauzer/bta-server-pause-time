@@ -1,37 +1,24 @@
-# Example Mod
+# BTA-Server-Pause-Time
 
-Template for making Babric mods for BTA!
+## Overview
+BTA-Server-Pause-Time is a simple mod designed to pause the game time whenever there are no players on the server. This mod is specifically tailored for BTA-7.1 but should be compatible with any version of the software.
 
-**Note: *DO NOT fork this repository unless you want to contribute!***
+## Features
+- Automatically pauses and resumes time based on player presence.
+- Ensures that server resources are used efficiently when no players are active.
 
-## Prerequisites
-- JDK for Java 17 ([Eclipse Temurin](https://adoptium.net/temurin/releases/) recommended)
-- [Intellij IDEA](https://www.jetbrains.com/idea/download/) (Scroll down for the free community edition, if using linux **DO NOT** use the flatpak distribution)
-- Minecraft Development plugin (Optional, but highly recommended)
+## Installation
+1. Download the latest release from the Releases section.
+2. Follow the installation instructions specific to your server to integrate the BTA-Pause-Time mod.
 
-## Setup instructions
-   
+## Compatibility
+While this mod is developed for BTA-7.1, it has been structured to be potentially compatible with other versions. Please test it with other versions and report any issues.
 
-1. Click the `Use this template` button on this repo's page above (Will only appear if logged in). Choose `Create a new repository`, you will be redirected to a new page. Enter your repo's name and description, and hit `Create repository`.  
-   To get your project, open IntelliJ IDEA and click `Get from VCS`. Select `Repository URL` and enter your repo's url
+## Contributions
+Contributions are welcome! If you'd like to improve BTA-Pause-Time, feel free to fork the repository and submit a pull request. Please ensure your code adheres to the existing style of the project to maintain consistency.
 
-2. After the project has finished importing, close it and open it again.  
-   If that does not work, open the right sidebar with `Gradle` on it, open `Tasks` > `fabric` and run `ideaSyncTask`.
+## License
+BTA-Pause-Time is made available under the MIT License. For more details, see the LICENSE file in the repository.
 
-3. Create a new run configuration by going in `Run > Edit Configurations`.  
-   Then click on the plus icon and select Gradle. In the `Tasks and Arguments` field enter `build`.  
-   Running it will build your finished jar files and put them in `build/libs/`.
-
-4. Lastly, open `File` > `Settings` and head to `Build, Execution, Development` > `Build Tools` > `Gradle`.  
-   Make sure `Build and run using` and `Run tests using` is set to `Gradle`.
-
-5. Done! Now, all that's left is to change every mention of `examplemod` and `turniplabs` to your own mod id and mod group, respectively. Happy modding!
-
-## Tips
-
-1. If you haven't already you should join the BTA modding discord! https://discord.gg/FTUNJhswBT
-2. You can set your username when launching the client run configuration by setting `--username <username>` in your program arguments.
-3. When launching the server run configuration you may want to remove the `nogui` program argument in order to see the regular server GUI.
-4. In Intellij you can double press shift or press ctrl+N to search class files, change the search from the default `Project Files` to `All Places` you can easily explore the classes for you dependencies and even BTA itself.
-5. In Intellij if ctrl+left click on a field or method you can quickly get information on when and where that field or method is assign or used.
-
+## Support
+If you encounter any problems or have any suggestions, please open an issue on the GitHub repository. We appreciate your feedback and contributions to improving this mod.
