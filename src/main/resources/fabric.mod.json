@@ -1,12 +1,12 @@
 {
   "schemaVersion": 1,
-  "id": "examplemod",
+  "id": "pausetime",
   "version": "${version}",
 
-  "name": "Example Mod",
-  "description": "This mod aims to help new BTA modders.",
+  "name": "Server Pause time",
+  "description": "This mod pause time on server when there's no players.",
   "authors": [
-    "Turnip Labs"
+    "squaredschnauzer"
   ],
   "contact": {
     "homepage": "",
@@ -19,20 +19,11 @@
   "environment": "*",
   "entrypoints": {
     "main": [
-			"turniplabs.examplemod.ExampleMod"
-    ],
-		"beforeGameStart": [
-			"turniplabs.examplemod.ExampleMod"
-		],
-		"afterGameStart": [
-			"turniplabs.examplemod.ExampleMod"
-		],
-		"recipesReady": [
-			"turniplabs.examplemod.ExampleMod"
-		]
+			"squaredschnauzer.pausetime.PauseTime"
+    ]
 	},
   "mixins": [
-      "examplemod.mixins.json"
+    "pausetime.mixins.json"
   ],
 
   "depends": {
