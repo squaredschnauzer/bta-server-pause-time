@@ -7,6 +7,7 @@ import org.spongepowered.asm.mixin.Mixin;
 import org.spongepowered.asm.mixin.Shadow;
 import org.spongepowered.asm.mixin.injection.At;
 import org.spongepowered.asm.mixin.injection.ModifyVariable;
+import squaredschnauzer.pausetime.gamerule.CustomGameRules;
 
 import java.util.List;
 
@@ -20,7 +21,7 @@ public class MixinWorld {
 
 	@ModifyVariable(method = "tick", at = @At(value = "LOAD", ordinal = 0), ordinal = 0)
 	private long modifyWorldTime(long l1) {
-		if (!this.players.isEmpty()) {
+		if (!this.players.isEmpty() || !this.levelData.getGameRules().getValue(CustomGameRules.FREEZE_TIME_WHEN_EMPTY)) {
 			return l1;
 		}
 

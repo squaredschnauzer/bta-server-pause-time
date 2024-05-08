@@ -7,6 +7,11 @@ BTA-Server-Pause-Time is a simple mod designed to pause the game time whenever t
 ## Features
 - Automatically pauses and resumes time based on player presence.
 - Ensures that server resources are used efficiently when no players are active.
+- Adds a new game rule `freezeTimeWhenEmpty=true|false` (Default: true).
+
+## Commands
+- To pause time when no players are present, use: `/gamerule freezeTimeWhenEmpty true`.
+- To keep time running when no players are present, use: `/gamerule freezeTimeWhenEmpty false`.
 
 ## Installation
 1. Download the latest release from the Releases section.
